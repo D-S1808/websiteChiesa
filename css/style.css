@@ -1,0 +1,26 @@
+.container1 {
+    background-color: #2F3138;
+    padding: 15px;
+    position: relative;
+}
+
+nav {
+    text-align: center;
+    position: relative;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.small_logo {
+    position: absolute;
+    padding-right: 20%;
+    width: 126px;
+    height: 77px;
+    left: 26px;
+    top: 14px;
+    background: url(logo2-small-white.png);
+    }
