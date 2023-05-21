@@ -47,9 +47,64 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
+/*end of container1*/
 
-  .container2
+
+.container2
   {
     width: 100%;
     height: 480px;
   }
+
+.h1 {
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    font-family: 'Castoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    color: #2da4c6;
+  }
+  /*end of container2*/
+
+
+  .container3 {
+    position: relative;
+    top: 155px;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+  }
+
+  .h2 {
+    position: relative;
+    top: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #B1B1B1;    ;
+  }
+
+  .title {
+    position: relative;
+    top: 113px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+  }
+
+  .text {
+    position: relative;
+    top: 174px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+    /*end of container3*/
