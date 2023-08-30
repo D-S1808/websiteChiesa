@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>CEPI-Basilea</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="../lang.js" async></script>
 
 </head>
@@ -23,9 +24,9 @@
             <img src="../img/logo2-small-white 2.png">
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#container-1">Home</a></li>
                     <li><a href="#container-2">Chi siamo</a></li>
-                    <li><a href="#contact">Contatti</a></li>
+                    <li><a href="#container-3">Contatti</a></li>
                 </ul>
             </nav>
         </header>
@@ -97,10 +98,74 @@
 
         </div>
 
+        <div id="container-3">
+            <h1>Contatti</h3>
+
+                <div class="parent">
+
+                    <div class="child">
+                        <h3>Posizione</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.1294082111717!2d7.578652769712757!3d47.557716203239856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b900ab82fc7d%3A0x18452cd0a329fdb3!2sSocinstrasse%2013%2C%204051%20Basel!5e0!3m2!1sen!2sch!4v1693423875819!5m2!1sen!2sch"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+                    <div class="child">
+                        <h3>Orari</h3>
+                        <table id="orari">
+                            <tr>
+                                <th>Domenica</th>
+                                <td>17:00 - 18:30</td>
+                                <td>Culto</td>
+                            </tr>
+                            <tr>
+                                <th>Mercoledì</th>
+                                <td>19:30 - 20:30</td>
+                                <td>Preghiera</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+        </div>
+
 
 
         <footer>
+
+            <p>
+                CEPI Basilea | Socinstrasse 13 | 4051 Basel<br>
+                Tel. 061 111 11 11 <br>
+            </p>
             <img src="../img/logo2-small-white 2.png">
+
+            <p id="rights">
+                © Tutti i diritti sono riservati <br>
+                I contenuti di questo sito non possono essere
+                pubblicati senza specifico consenso.
+            </p>
+
+
+            <div id="button">
+                <form>
+                    <button type="button" onclick="window.location.href='#top'" class="back-to-top-button">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </form>
+            </div>
+
+
         </footer>
     </div>
 
