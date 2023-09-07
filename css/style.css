@@ -31,6 +31,7 @@ header nav ul {
   display: inline-block;
   margin: 0;
   padding: 0;
+  /*position: fixed;*/
 }
 
 header nav li {
@@ -49,6 +50,10 @@ nav a,
   padding: 10px 10px 12px;
   color: #9c9c9c;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a {
+  padding: 10px 40px 12px;
 }
 
 nav a:hover,
