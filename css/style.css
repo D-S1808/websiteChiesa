@@ -135,6 +135,11 @@ iframe {
   margin: 0 auto;
 }
 
+#contact {
+  line-height: 1.95;
+  margin: 0 auto;
+}
+
 footer {
   text-align: center;
 }
